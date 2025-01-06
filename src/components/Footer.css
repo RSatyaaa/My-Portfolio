@@ -1,0 +1,61 @@
+/* Footer.css */
+
+.footer {
+    /* position: fixed;  */
+    bottom: 0; /* Position it at the bottom of the viewport */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    background-color: #343a40; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 1px; /* Padding */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .footer-content {
+    max-width: 800px; /* Maximum width for content */
+    margin: auto; /* Center align content */
+    padding: 0 20px; /* Padding for content */
+  }
+  
+  .footer-content h2, .footer-content h3 {
+    margin: 10px 0; /* Margin for headings */
+  }
+  
+  .quick-links ul, .contact-info {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .quick-links li, .contact-info p {
+    margin: 5px 0; /* Space between items */
+  }
+  
+  .quick-links a, .contact-info a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .contact-info {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center align vertically */
+    flex-direction: row; /* Set icons to be horizontal */
+    gap: 20px; /* Space between icons */
+    margin-top: 10px; /* Add margin on top */
+  }
+  
+  
+  .material-icons, svg {
+    vertical-align: middle; /* Align icon with text */
+    margin-right: 8px; /* Space between icon and text */
+  }
+   .contact-info svg {
+    margin-right: 8px; 
+    vertical-align: middle; 
+    width: 26px; 
+    height: 45px; 
+    fill: white; 
+  } 
+
+  

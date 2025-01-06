@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #1266c71f;
+}
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Space between the menu items */
+    margin-left: 55%;
+    padding: 0;
+    
+  }
+
+  .navbar nav ul li a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white; 
+    padding: 10px 15px;
+
+
+  }
+
+  
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: row; /* Stack menu items vertically */
+      gap: 10px;  
+      margin:5px;
+     
+    }
+    
+    .navbar {
+      padding: 10px 20px; /* Adjust padding */
+    }
+    
+    .navbar ul li a {
+      font-size: 1rem; /* Reduce font size on mobile */
+      padding: 8px 12px; /* Adjust padding for mobile */
+    }
+  
+  }
+

@@ -1,0 +1,98 @@
+/* About.css */
+
+   @keyframes fadeInZoom {
+    0% {
+      opacity: 0;
+      transform: scale(2.5); /* Starts smaller */
+    }
+    100% {
+      opacity: 1;
+      transform: scale(0.8); /* Grows to normal size */
+    }
+  }
+
+  
+   .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align content to the top */
+    justify-content: space-between; /* Space between image and content */
+    gap: 50px; /* Adjust gap for proper spacing */
+    max-width: 1200px; /* Set a max width to control layout */
+    margin: 0 auto; /* Center the container */
+    padding: 190px;
+}
+
+.about-image img {
+    height: 450px;
+    width: 350px;
+    object-fit: cover; /* Ensure the image retains proper proportions */
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+    animation: fadeInZoom 2.0s ease-in-out;
+}
+
+.about-image {
+    margin-bottom: 0; /* Remove unnecessary bottom margin */
+}
+
+.about-content {
+    flex: 1; /* Allow content to take available space */
+    line-height: 1.6;
+    max-width: 600px; /* Reduce width for better text wrapping */
+    word-wrap: break-word; /* Ensure long words break appropriately */
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(9, 125, 46);
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    text-align: justify; /* Optional: Justify the text for a cleaner look */
+    margin-bottom: 20px; /* Add spacing between paragraphs */
+    color: rgb(214, 206, 190);
+    font-weight: bold;
+
+}
+.button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background-color: #c3d0dc; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button a {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #070707; /* Darker blue on hover */
+    cursor: pointer; /* Pointer on hover */
+  }
+
+
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stack the image and content vertically */
+        text-align: center; /* Center the text */
+    }
+
+    .about-image img {
+        margin-bottom: 20px; /* Add space below the image when stacked */
+        width: 100%; /* Ensure the image takes full width on smaller screens */
+        height: auto; /* Let height adjust accordingly */
+    }
+
+    .about-content {
+        max-width: 100%; /* Allow full width for content on small screens */
+        text-align: center; /* Center the text for smaller screens */
+    }
+}
+
+  

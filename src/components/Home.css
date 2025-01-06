@@ -1,0 +1,146 @@
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px); /* Slide in from top */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at normal position */
+    }
+  }
+
+  @keyframes fadeInDelay {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); /* Slide in from bottom */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at normal position */
+    }
+  }
+
+  @keyframes fadeInZoom {
+    0% {
+      opacity: 0;
+      transform: scale(2.5); /* Starts smaller */
+    }
+    100% {
+      opacity: 1;
+      transform: scale(0.8); /* Grows to normal size */
+    }
+  }
+
+  
+.home {
+  padding: 90px;
+}
+
+.home h1 {
+    font-size: 4.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;/* Example font from Google Fonts */
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out; /* Animation on load */
+
+  }
+  
+  .home h2 {
+    font-size: 4rem; /* Increase the size of your name */
+    color: #ffffff;
+    /* A professional blue color */
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;/* Example font from Google Fonts */
+    font-weight: bold;
+    animation: fadeInDelay 3s ease-in-out; /* Animation with slight delay */
+  }
+  
+  .tag {
+    color: #ffffff;    ;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    animation: fadeInDelay 3s ease-in-out;
+    font-size: 1.4rem;
+    padding-left: 10%;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cta-buttons a {
+    text-decoration: none;
+  }
+  .know-me-btn {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background-color: #c3d0dc; /* Button background color */
+  color: rgb(48, 6, 6); /* Button text color */
+  border: none; 
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  }
+
+  .btn-secondary {
+    padding: 12px 25px;
+    border-radius: 25px;
+    background-color: #c3d0dc; /* Button background color */
+    color: white; /* Button text color */
+    border: none; 
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    }
+
+
+  .about-content {
+    font-family: "Comfortaa", sans-serif; 
+    color: white;
+    font-size: 1.2rem;
+    align-items: center;
+    padding-left: 10%;
+  }
+
+  .photo img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover; /* Ensure the image retains proper proportions */
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+    animation: fadeInZoom 2.0s ease-in-out;
+  }
+
+  .photo {
+    margin-bottom: 0;
+  }
+
+  .homepage {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+  }
+
+  .small-logo {
+    width: 2.5em; 
+    height: auto;
+    vertical-align: middle; 
+    margin-left: 5px; 
+  }
+
+  @media (max-width: 768px) {
+
+    .homepage {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
