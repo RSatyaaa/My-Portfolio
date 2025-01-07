@@ -94,7 +94,7 @@ function Experience() {
                       className="small-logo" 
                     />
                 </h4>
-                <p><strong>Jan 2020 – Dec 2020</strong></p>
+                <p><strong>Aug 2019 – Dec 2020</strong></p>
                 <p>
                     Developed an interactive dashboard for distance learning using Java, Spring Boot, and Angular, ensuring real-time data integration.
                     Designed secure and efficient backend services to support dashboard functionalities.
@@ -112,7 +112,7 @@ function Experience() {
                       className="small-logo" 
                     />
                 </h4>
-                <p><strong>Jan 2019 – Dec 2019</strong></p>
+                <p><strong>Jan 2019 – Aug 2019</strong></p>
                 <p>
                     Designed and implemented a customer feedback analysis tool using Java and Angular, improving sentiment analysis accuracy by 25%.
                     Conducted research and implemented NoSQL solutions using MongoDB for handling unstructured data.
