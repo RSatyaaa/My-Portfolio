@@ -87,10 +87,10 @@ function Experience() {
             </div>
 
             <div className="project">
-                <h4>Full Stack Developer Intern - Software Engineering Research Center IIIT
+                <h4>Junior Software Engineer - Smartbridge
                     <img 
-                      src={`${process.env.PUBLIC_URL}/SERC.png`} 
-                      alt="IIIT Logo" 
+                      src={`${process.env.PUBLIC_URL}/smartbridge.png`} 
+                      alt="Smartbridge Logo" 
                       className="small-logo" 
                     />
                 </h4>
@@ -105,10 +105,11 @@ function Experience() {
             </div>
 
             <div className="project">
-                <h4>Junior Software Engineer Intern - Smartbridge
+                
+                <h4>Full Stack Developer Intern - Software Engineering Research Center IIIT
                     <img 
-                      src={`${process.env.PUBLIC_URL}/smartbridge.png`} 
-                      alt="Smartbridge Logo" 
+                      src={`${process.env.PUBLIC_URL}/SERC.png`} 
+                      alt="IIIT Logo" 
                       className="small-logo" 
                     />
                 </h4>
