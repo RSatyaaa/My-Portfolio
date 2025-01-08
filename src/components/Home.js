@@ -20,7 +20,7 @@ function Home() {
             Full Stack Java Developer | Software Engineer</p>
 
       <p className='about-content'>
-      Experienced Full Stack Java Developer with over 5 years of expertise in building scalable web applications, microservices, and RESTful APIs. Proficient in technologies like Java, Spring Boot, Angular, and cloud platforms such as AWS and Azure, with a proven track record of optimizing workflows and enhancing system efficiency. Passionate about solving complex challenges and delivering innovative, user-centric solutions.  </p>
+      Experienced Full Stack Java Developer with over 6 years of expertise in building scalable web applications, microservices, and RESTful APIs. Proficient in technologies like Java, Spring Boot, Angular, and cloud platforms such as AWS and Azure, with a proven track record of optimizing workflows and enhancing system efficiency. Passionate about solving complex challenges and delivering innovative, user-centric solutions.  </p>
 
       {/* Add buttons for profile and contact */}
       <div className="cta-buttons">
