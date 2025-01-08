@@ -17,7 +17,7 @@ const About = () => {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-          Experienced Full Stack Java Developer with over 5 years of expertise in building scalable web applications, microservices, and RESTful APIs. Proficient in technologies like Java, Spring Boot, Angular, and cloud platforms such as AWS and Azure, with a proven track record of optimizing workflows and enhancing system efficiency. Passionate about solving complex challenges and delivering innovative, user-centric solutions.
+          Experienced Full Stack Java Developer with over 6 years of expertise in building scalable web applications, microservices, and RESTful APIs. Proficient in technologies like Java, Spring Boot, Angular, and cloud platforms such as AWS and Azure, with a proven track record of optimizing workflows and enhancing system efficiency. Passionate about solving complex challenges and delivering innovative, user-centric solutions.
           </p>
           <div className="button">
             <a href="#experience-view">See My Work<FontAwesomeIcon icon={faArrowRight} /></a>
